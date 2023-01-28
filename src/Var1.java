@@ -92,7 +92,7 @@ public class Var1 {
         System.out.println(frog);
         frog += 4;
         System.out.println(frog);
-
+        System.out.println();
 
         /*
         Задача 6
@@ -108,6 +108,13 @@ public class Var1 {
         Подсчитайте и выведите в консоль разницу между весами бойцов. Для решения этой задачи используйте тип переменной var.
          */
 
+        var fighter1 = 78.2;
+        var fighter2 = 82.7;
+        var totalWeight = fighter1 + fighter2;
+        System.out.println(totalWeight);
+        System.out.println(fighter2 - fighter1);
+        System.out.println();
+
         /*
         Задача 7
         Вычислите разницу весов спортсменов, используйте 2 способа:
@@ -116,6 +123,10 @@ public class Var1 {
         - С помощь функции остаток от деления.
         Для решения этой задачи используйте тип переменной var.
          */
+
+        System.out.println(fighter2 - fighter1);
+        System.out.println(fighter2 % fighter1);
+        System.out.println();
 
         /*
         Задача 8
@@ -128,5 +139,15 @@ public class Var1 {
         человека больше. Выведите результат задачи в консоль в формате: «Если в компании работает … человек, то всего … часов работы может быть поделено между сотрудниками».
         Для решения этой задачи используйте тип переменной var.
          */
+
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var employeeCount = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + employeeCount + " человек");
+        var increasedEmployeeCount = employeeCount + 94;
+        System.out.println("Если в компании работает " + increasedEmployeeCount + " человек, " +
+                           " то всего " + (increasedEmployeeCount * hoursPerEmployee) + " часов работы может быть поделено между сотрудниками».");
+        System.out.println();
+
     }
 }
