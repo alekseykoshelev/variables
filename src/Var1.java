@@ -50,6 +50,7 @@ public class Var1 {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        System.out.println();
 
 
         /*
@@ -63,6 +64,15 @@ public class Var1 {
         Для решения этой задачи используйте тип переменной var.
          */
 
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        System.out.println();
+
+
         /*
         Задача 5
         Инициализируйте переменную frog значением 3.5.
@@ -73,6 +83,16 @@ public class Var1 {
 
         Для решения этой задачи используйте тип переменной var.
          */
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog /= 3.5;
+        System.out.println(frog);
+        frog += 4;
+        System.out.println(frog);
+
 
         /*
         Задача 6
