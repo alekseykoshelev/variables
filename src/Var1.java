@@ -33,6 +33,7 @@ public class Var1 {
         System.out.println(dog2);
         System.out.println(cat2);
         System.out.println(paper2);
+        System.out.println();
         /*
         Задача 3
         Теперь нужно уменьшить значение каждой переменной:
@@ -42,6 +43,14 @@ public class Var1 {
          paper уменьшить на 7639.
         Выведите в консоль новые значения переменных. Для решения этой задачи используйте тип переменной var.
          */
+
+        dog = dog - 3.5;
+        cat -= 1.6;
+        paper -= 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
 
         /*
         Задача 4
