@@ -2,7 +2,7 @@ public class Var2 {
     public static void main(String[] args) {
 
         /*
-        Задача 1
+        Задача 1qqq
         Объявите переменные типа int, byte, short, long, float, double.
 
         Название переменных может быть любым, но если состоит из двух слов и более, должно соответствовать правилу camelCase.
